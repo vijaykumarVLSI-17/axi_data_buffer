@@ -7,8 +7,8 @@
 // Design Name: Write Buffer
 // Module Name: W_Buffer
 // Project Name: AXI - Compatible Memory Controller
-// Target Devices: 
-// Tool Versions: 
+// Target Devices: Embedded Systems
+// Tool Versions: Vivado 2019.2
 // Description: 
 // 
 // Dependencies: 
