@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_W_FIFO_design_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_W_FIFO_design" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2355900fs"></ZoomStartTime>
+      <ZoomEndTime time="2610101fs"></ZoomEndTime>
+      <Cursor1Time time="2576800fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="187"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/tb_W_FIFO_design/dut/W_fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">W_fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/W_fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">W_fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/W_fifo_rst" type="logic">
+      <obj_property name="ElementShortName">W_fifo_rst</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/W_fifo_w_en" type="logic">
+      <obj_property name="ElementShortName">W_fifo_w_en</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/W_fifo_r_en" type="logic">
+      <obj_property name="ElementShortName">W_fifo_r_en</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/W_fifo_full" type="logic">
+      <obj_property name="ElementShortName">W_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/W_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">W_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/in_fifo_WDATA" type="array">
+      <obj_property name="ElementShortName">in_fifo_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/in_fifo_WSTRB" type="array">
+      <obj_property name="ElementShortName">in_fifo_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/in_fifo_WLAST" type="logic">
+      <obj_property name="ElementShortName">in_fifo_WLAST</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/in_fifo_WVALID" type="logic">
+      <obj_property name="ElementShortName">in_fifo_WVALID</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/in_fifo_WREADY" type="logic">
+      <obj_property name="ElementShortName">in_fifo_WREADY</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/out_fifo_WDATA" type="array">
+      <obj_property name="ElementShortName">out_fifo_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/out_fifo_WSTRB" type="array">
+      <obj_property name="ElementShortName">out_fifo_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/out_fifo_WLAST" type="logic">
+      <obj_property name="ElementShortName">out_fifo_WLAST</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/out_fifo_WVALID" type="logic">
+      <obj_property name="ElementShortName">out_fifo_WVALID</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/out_fifo_WREADY" type="logic">
+      <obj_property name="ElementShortName">out_fifo_WREADY</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/FIFO_MEMORY" type="array">
+      <obj_property name="ElementShortName">FIFO_MEMORY[127:0][36:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_MEMORY[127:0][36:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/FIFO_w_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_w_ptr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_w_ptr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/FIFO_r_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_r_ptr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_r_ptr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/FIFO_is_almost_full" type="logic">
+      <obj_property name="ElementShortName">FIFO_is_almost_full</obj_property>
+      <obj_property name="ObjectShortName">FIFO_is_almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/FIFO_is_almost_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_is_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_is_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/FIFO_DEPTH" type="array">
+      <obj_property name="ElementShortName">FIFO_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/STRB_WIDTH" type="array">
+      <obj_property name="ElementShortName">STRB_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STRB_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/WLAST_WIDTH" type="array">
+      <obj_property name="ElementShortName">WLAST_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WLAST_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/FIFO_WIDTH" type="array">
+      <obj_property name="ElementShortName">FIFO_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/WDATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">WDATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/WSTRB_WIDTH" type="array">
+      <obj_property name="ElementShortName">WSTRB_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WSTRB_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/DATA_LSB" type="array">
+      <obj_property name="ElementShortName">DATA_LSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_LSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/DATA_MSB" type="array">
+      <obj_property name="ElementShortName">DATA_MSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_MSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/STRB_LSB" type="array">
+      <obj_property name="ElementShortName">STRB_LSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STRB_LSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/STRB_MSB" type="array">
+      <obj_property name="ElementShortName">STRB_MSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STRB_MSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/TOTAL_WIDTH" type="array">
+      <obj_property name="ElementShortName">TOTAL_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TOTAL_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_W_FIFO_design/dut/PTR_WIDTH" type="array">
+      <obj_property name="ElementShortName">PTR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PTR_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
